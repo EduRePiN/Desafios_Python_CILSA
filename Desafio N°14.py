@@ -24,7 +24,7 @@ for i in range(5):
     persona["edad"].append(edad)
 
 
-contenido = open("D:\CILSA\Python\Desafios_Python_CILSA\personas.txt", "w")
+contenido = open("personas.txt", "w")
 
 for i in range(5):
     contenido.write(persona["nombre"] [i] + " , ")
