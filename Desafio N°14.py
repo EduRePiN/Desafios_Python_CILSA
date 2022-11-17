@@ -10,9 +10,9 @@ Created on Mon Oct  3 19:18:03 2022
 #Se debe almacenar en un diccionario y luego escribir un archivo separado por comas con los datos de cada registro del diccionario.
 
 persona = {
-    "nombre" : [],
-    "apellido" : [],
-    "edad" : [],
+    "nombre": [],
+    "apellido": [],
+    "edad": [],
     }
 
 for i in range(5):
@@ -27,8 +27,8 @@ for i in range(5):
 contenido = open("personas.txt", "w")
 
 for i in range(5):
-    contenido.write(persona["nombre"] [i] + " , ")
-    contenido.write(persona["apellido"] [i] + " , ")
-    contenido.write(persona["edad"] [i] + "\n")
+    contenido.write(persona["nombre"][i] + " , ")
+    contenido.write(persona["apellido"][i] + " , ")
+    contenido.write(persona["edad"][i] + "\n")
 
 contenido.close()
